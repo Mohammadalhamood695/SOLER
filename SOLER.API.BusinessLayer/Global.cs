@@ -1,0 +1,26 @@
+﻿global using SOLER.API.DataAccessLayer.HRManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.SalesManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.InvoiceManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.ProductManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.WorkshopManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.FinancialManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.ProcurementManagementSystem.DTOs;
+global using SOLER.API.DataAccessLayer.MaintenanceManagementSystem.DTOs;
+global using SOLER.API.BusinessLayer.IService.IServiceHRManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceSalesManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceProductManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceInvoiceManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceWorkshopManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceFinancialManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceProcurementManagementSystem;
+global using SOLER.API.BusinessLayer.IService.IServiceMaintenanceManagementSystem;
+global using Microsoft.Extensions.Logging;
+global using SOLER.API.Repository.IRepositoryWorkshopManagementSystem;
+global using SOLER.API.Repository.IRepositorySalesManagementSystem;
+global using SOLER.API.Repository.IRepositoryProductManagementSystem;
+global using SOLER.API.Repository.IRepositoryProcurementManagementSystem;
+global using SOLER.API.Repository.IRepositoryMaintenanceManagementSystem;
+global using SOLER.API.Repository.IRepositoryInvoiceManagementSystem;
+global using SOLER.API.Repository.IRepositoryHRManagementSystem;
+
+global using SOLER.API.Repository.IRepositoryFinancialManagementSystem;
